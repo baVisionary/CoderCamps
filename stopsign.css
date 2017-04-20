@@ -1,0 +1,64 @@
+#sign {
+  display: block;
+  position: relative;
+  margin: 0.2em;
+  border: 0.2em solid gold;
+  background-color: red;
+  width: 2.7em;
+  height: 2.7em;
+  line-height: 0px;
+  font-size: 14rem;
+}
+
+#sign span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0.1em;
+  text-align: center;
+  font-size: 1em;
+}
+
+#sign div {
+  display: block;
+  position: absolute;
+  padding: 0px;
+  width: 0px;
+  height: 0px;
+  margin: -0.2em;
+
+}
+
+.border {
+  border-top: 1.2em solid gold;
+  border-right: 1.2em solid transparent;
+  border-bottom: 1.2em solid gold;
+  border-left: 1.2em solid transparent;
+}
+
+.corner {
+  border-top: 0.9em solid white;
+  border-right: 0.9em solid transparent;
+  border-bottom: 0.9em solid white;
+  border-left: 0.9em solid transparent;
+}
+
+.top {
+  top: 0px;
+  border-bottom: none;
+}
+
+.bottom {
+  bottom: 0px;
+  border-top: none;
+}
+
+.left {
+  left: 0px;
+  border-left: none;
+}
+
+.right {
+  right: 0px;
+  border-right: none;
+}
