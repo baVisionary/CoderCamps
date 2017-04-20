@@ -1,0 +1,47 @@
+form {
+  border: 1px solid gray;
+  width: 600px;
+  margin: none;
+  text-align: center;
+  font-size: x-large;
+}
+
+.colorBlock {
+  width: 600px;
+  margin: none;
+}
+
+.compColor {
+  width: 30%;
+  display: inline-block;
+  color: white;
+  margin: 5px;
+  border-radius: 80px;
+  border-collapse: collapse;
+
+}
+
+input[type=range] {
+  width: 130px;
+}
+
+#rDiv {
+  background-color: red;
+}
+
+#gDiv {
+  background-color: rgb(0, 255, 0);
+}
+
+#bDiv {
+  background-color: blue;
+}
+
+.foundColor {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.foundColor input {
+  font-size: large;
+}

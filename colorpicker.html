@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple RGB Color picker</title>
+    <link rel="stylesheet" href="colorpicker.css">
+  </head>
+  <body>
+    <form id="colorPicker">
+      <div class="colorBlock">
+        <div class="compColor" id='rDiv'>
+          <span>Red</span><br>
+          <input type="range" min='0' max='255' name="rRange" value="255"><br>
+          <span class='colorVal' id=rVal>255</span>
+        </div>
+        <div class="compColor" id='gDiv'>
+          <span>Green</span><br>
+          <input type="range" min='0' max='255' name="gRange" value="255"><br>
+          <span class='colorVal' id=gVal>255</span>
+        </div>
+        <div class="compColor" id='bDiv'>
+          <span>Blue</span><br>
+          <input type="range" min='0' max='255' name="bRange" value="255"><br>
+          <span class='colorVal' id=bVal>255</span>
+        </div>
+        <div class="foundColor">
+          <span id='rgbVal'>rgb( 255, 255, 255 )</span>
+          <input type="text" name="colorName" placeholder="Name Color">
+          <input type="button" name="saveColor" value="Save">
+        </div>
+      </div>
+    </form>
+
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="colorpicker.js" charset="utf-8"></script>
+  </body>
+</html>
